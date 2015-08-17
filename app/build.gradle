@@ -25,4 +25,5 @@ dependencies {
   compile files('libs/debug-disable-1.1.jar')
   compile files('libs/hexdump-0.2.jar')
   compile files('libs/unix-0.5.jar')
+  compile files('libs/libdbus-java-2.8.jar')
 }
