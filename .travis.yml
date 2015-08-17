@@ -1,0 +1,17 @@
+language: android
+
+android:
+  components:
+    - build-tools-22.0.1
+    - android-22
+    - extra-android-m2repository
+
+before_install:
+  # show some information about the environment
+  - uname -a
+  - gradle -v
+  - ./gradlew -version
+  - java -version
+
+script:
+  - ./gradlew build
