@@ -20,6 +20,9 @@ android {
 }
 
 dependencies {
-  compile fileTree(dir: 'libs', include: ['*.jar'])
   compile 'com.android.support:appcompat-v7:22.2.1'
+
+  compile files('libs/debug-disable-1.1.jar')
+  compile files('libs/hexdump-0.2.jar')
+  compile files('libs/unix-0.5.jar')
 }
